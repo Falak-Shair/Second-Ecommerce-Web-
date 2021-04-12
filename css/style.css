@@ -1,0 +1,84 @@
+
+html{
+    scroll-behavior: smooth !important;
+}
+.nav-ul {
+    margin-left: 20px !important;
+}
+.navbar-nav{
+    margin-left: 50px !important;
+}
+.navbar-font{
+    margin: 0 0 0 8px  ;
+    font-size: 20px;
+    padding-right: 0 !important ;
+    color: black !important;
+
+}
+
+/* .nav-item , .prod-item ,.navbar-font:hover{
+ background: rgb(81, 81, 230) !important; 
+ color: black !important; 
+
+} */
+/* .navbar{
+    border-bottom: 1px solid rgb(211, 196, 196) !important;
+} */
+.badge{
+    position: relative;
+    left: -9px;
+    bottom: 22px;
+}
+.carousel-caption{
+    /* right: 52% !important;
+    bottom: 169px !important; */
+    font-family: 'Times New Roman', Times, serif !important;
+    color: black !important;
+}
+.btn-primary {
+    border-radius: 20px !important;
+    padding: 10px 20px !important;
+}
+/* @media only screen and (min-width:731px) { 
+    .carousel-caption{
+        right: 46% !important;
+        bottom: 86px !important;
+    }
+} */
+.image-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(101, 77, 241, 0.5);
+  }
+
+.card:hover .image-overlay {
+    opacity: 1;
+  }
+  .text{
+      position: absolute;
+      left: 50px !important;
+      top: 30px;
+      color: white;
+  }
+  .nav-tabs{
+      border: none !important;
+  }
+  .btn-secondary{
+      padding: 10px 40px !important;
+      border-radius: 35px !important;
+      color: black !important;
+  }
+  .btn-secondary:hover{
+      background-color: black !important;
+      color: white !important;
+  }
+  .page-footer{
+      background-color: teal;
+  }
